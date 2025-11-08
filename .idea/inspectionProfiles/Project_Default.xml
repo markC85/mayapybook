@@ -1,0 +1,47 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="athena" />
+            <item index="1" class="java.lang.String" itemvalue="maya" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E502" />
+          <option value="E402" />
+          <option value="E302" />
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="dwpicker" />
+          <option value="maya.cmds" />
+          <option value="athena.atCore" />
+          <option value="src.maya_firaxis_checks.process.CheckJointNamingConvetion.maya" />
+          <option value="maya.cmds.*" />
+          <option value="src.maya_firaxis_checks.process.no_display_layer.athena" />
+          <option value="src.maya_firaxis_checks.process.no_display_layer.maya" />
+          <option value="tests_maya_firaxis_checks.process.test_animation_layers.*" />
+          <option value="src.maya_firaxis_checks.process.skeleton_meshes_not_parented_to_world_for_export.*" />
+          <option value="tests_maya_firaxis_checks.process.test_skeleton_meshes_export.*" />
+          <option value="src.maya_firaxis_checks.process.normalized_weights.*" />
+          <option value="src.maya_firaxis_checks.process.pivot_not_at_origin.*" />
+          <option value="tests_maya_firaxis_checks.process.test_pivot_not_at_origin.*" />
+          <option value="tests_maya_firaxis_checks.process.test_no_display_layer.*" />
+          <option value="src.maya_firaxis_checks.process.max_influence_per_vertex.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
